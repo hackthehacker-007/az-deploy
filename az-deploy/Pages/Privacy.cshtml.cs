@@ -14,6 +14,7 @@ namespace az_deploy.Pages
 
         public void OnGet()
         {
+            throw new Exception("For testing");
         }
     }
 

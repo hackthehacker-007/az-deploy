@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>az_deploy</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/c0df498f-9ec8-4548-9cd8-1c2c52971a7a/resourceGroups/az_group/providers/microsoft.insights/components/az-project</ApplicationInsightsResourceId>
+    <UserSecretsId>b1454802-e960-45e7-a36b-8ed09698d133</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
